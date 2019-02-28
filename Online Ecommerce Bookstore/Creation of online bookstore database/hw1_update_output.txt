@@ -1,0 +1,301 @@
+
+Table AUTHORS dropped.
+
+
+Table AUTHORS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+ AUTHOR_ID AUTHOR_FNAME    AUT AUTHOR_LNAME    AUTHOR_DO A AUTHOR_CONTACT_DETAILS                                                                              
+---------- --------------- --- --------------- --------- - ----------------------------------------------------------------------------------------------------
+         1 Mark            MT  Twain           30-NOV-35 M No Longer Living                                                                                    
+         2 J. K.           JKR Rowlings        31-JUL-65 F Twitter - @jk_rowling, Mail- J.K. Rowling c/o Arthur A Levine Books 557 Broadway New York, NY 10012 
+         3 Dr.             TSG Suess           02-MAR-04 M No Longer Living                                                                                    
+         4 Edgar Allen     EAP Poe             19-JAN-09 M No Longer Living                                                                                    
+         5 F. Scott        FSF Fitzgerald      21-DEC-40 M No Longer Living                                                                                    
+
+
+Table BOOK_CATEGORIES dropped.
+
+
+Table BOOK_CATEGORIES created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+BOOK_CAT_ID BOOK_CATEGORY            
+----------- -------------------------
+          1 Fantasy                  
+          2 Childrens literature     
+          3 Historical Fiction       
+          4 Non-Fiction              
+          5 Poem                     
+
+
+Table BOOKS dropped.
+
+
+Table BOOKS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+   BOOK_ID  AUTHOR_ID BOOK_CAT_ID ISBN           DATE_PUBL BOOK_TITLE                                                                       BOOK_PROFIT_PRICE
+---------- ---------- ----------- -------------- --------- -------------------------------------------------------------------------------- -----------------
+         1          1           2 978-1503215672 25-AUG-18 The Adventures of Tom Sawyer                                                                  8.99
+         2          2           1 978-1338263893 18-NOV-18 Fantastic Beasts: The Crimes of Grindelwald - The Original Screenplay                         16.5
+         3          3           2 978-0394800134 12-MAR-60 One Fish Two Fish Red Fish Blue Fish                                                          9.15
+         4          4           5 978-1512399042 29-MAY-15 The Raven                                                                                     6.95
+         5          5           3 978-0743273565 30-SEP-04 The Great Gatsby                                                                             12.21
+
+
+Table CUSTOMERS dropped.
+
+
+Table CUSTOMERS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+CUSTOMER_ID CUSTOMER_NAME             CUSTOMER_ADDRESS                                                                 CUSTOMER_PHONE            CUSTOMER_EMAIL                
+----------- ------------------------- -------------------------------------------------------------------------------- ------------------------- ------------------------------
+          1 Stephanie G Stalvey       2007 Birch Street, El Paso, Texas(TX), 79901                                     915-479-6627              gerald1982@yahoo.com          
+          2 Adelia C Crenshaw         3984 Morris Street, Karnes City, Texas(TX), 78118                                830-623-5183              baylee1984@hotmail.com        
+          3 Wesley L Brantley         4762 Coal Road, Lewisburg, Pennsylvania(PA), 17837                               570-939-6062              janie1981@yahoo.com           
+          4 Terry T Hyde              3054 Marshville Road, New York, New York(NY), 10007                              646-841-0599              tyler1999@yahoo.com           
+          5 Larry D Rios              3755 Comfort Court, Wisconsin Dells, Wisconsin(WI), 53965                        414-201-9279              cordell.dool@gmail.com        
+
+
+Table ORDERS dropped.
+
+
+Table ORDERS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+  ORDER_ID CUSTOMER_ID ORDER_DAT ORDER_AMOUNT
+---------- ----------- --------- ------------
+         1           2 12-JAN-10        18.14
+         2           3 23-JAN-11        19.16
+         3           4 16-JUN-12        25.49
+         4           1 03-SEP-15         8.99
+         5           5 15-MAR-18         6.95
+
+
+Table ORDERED_BOOKS dropped.
+
+
+Table ORDERED_BOOKS created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+ORDER_BOOK_NUMBER   ORDER_ID    BOOK_ID BOOK_PRICE
+----------------- ---------- ---------- ----------
+                1          2          1       8.99
+                2          2          2       16.5
+                3          3          5      12.21
+                4          3          4       6.95
+                5          4          1       8.99
+                6          1          1       8.99
+                7          1          3       9.15
+                8          5          4       6.95
+
+8 rows selected. 
+
+
+ AUTHOR_ID AUTHOR_LNAME    AUTHOR_FNAME    AUTHOR_DO
+---------- --------------- --------------- ---------
+         1 Twain           Mark            30-NOV-35
+         2 Rowlings        J. K.           31-JUL-65
+         3 Suess           Dr.             02-MAR-04
+         4 Poe             Edgar Allen     19-JAN-09
+         5 Fitzgerald      F. Scott        21-DEC-40
+
+
+CUSTOMER_ID CUSTOMER_NAME             CUSTOMER_ADDRESS                                                                 CUSTOMER_PHONE            CUSTOMER_EMAIL                
+----------- ------------------------- -------------------------------------------------------------------------------- ------------------------- ------------------------------
+          2 Adelia C Crenshaw         3984 Morris Street, Karnes City, Texas(TX), 78118                                830-623-5183              baylee1984@hotmail.com        
+          5 Larry D Rios              3755 Comfort Court, Wisconsin Dells, Wisconsin(WI), 53965                        414-201-9279              cordell.dool@gmail.com        
+          1 Stephanie G Stalvey       2007 Birch Street, El Paso, Texas(TX), 79901                                     915-479-6627              gerald1982@yahoo.com          
+          4 Terry T Hyde              3054 Marshville Road, New York, New York(NY), 10007                              646-841-0599              tyler1999@yahoo.com           
+          3 Wesley L Brantley         4762 Coal Road, Lewisburg, Pennsylvania(PA), 17837                               570-939-6062              janie1981@yahoo.com           
+
+
+ISBN           BOOK_TITLE                                                                      
+-------------- --------------------------------------------------------------------------------
+978-0394800134 One Fish Two Fish Red Fish Blue Fish                                            
+978-0743273565 The Great Gatsby                                                                
+978-1338263893 Fantastic Beasts: The Crimes of Grindelwald - The Original Screenplay           
+978-1503215672 The Adventures of Tom Sawyer                                                    
+978-1512399042 The Raven                                                                       
+
+
+View VIEW_NAME created.
+
+
+  ORDER_ID CUSTOMER_NAME             ORDER_DAT
+---------- ------------------------- ---------
+         4 Stephanie G Stalvey       03-SEP-15
+         1 Adelia C Crenshaw         12-JAN-10
+         2 Wesley L Brantley         23-JAN-11
+         3 Terry T Hyde              16-JUN-12
+         5 Larry D Rios              15-MAR-18
+
+
+1 row updated.
+
+
+CUSTOMER_ID CUSTOMER_NAME             CUSTOMER_ADDRESS                                                                 CUSTOMER_PHONE            CUSTOMER_EMAIL                
+----------- ------------------------- -------------------------------------------------------------------------------- ------------------------- ------------------------------
+          1 Stephanie G Stalvey       2007 Birch Street, El Paso, Texas(TX), 79901                                     915-479-6627              gerald1982@yahoo.com          
+          2 Adelia C Crenshaw         3984 Morris Street, Karnes City, Texas(TX), 78118                                830-623-5183              baylee1984@hotmail.com        
+          3 Wesley L Brantley         4762 Coal Road, Lewisburg, Pennsylvania(PA), 17837                               570-939-6062              janie1981@yahoo.com           
+          4 Vickie E Remsberg         3054 Marshville Road, New York, New York(NY), 10007                              646-841-0599              tyler1999@yahoo.com           
+          5 Larry D Rios              3755 Comfort Court, Wisconsin Dells, Wisconsin(WI), 53965                        414-201-9279              cordell.dool@gmail.com        
+
+Name                   Null?    Type          
+---------------------- -------- ------------- 
+AUTHOR_ID              NOT NULL NUMBER(38)    
+AUTHOR_FNAME           NOT NULL VARCHAR2(15)  
+AUTHOR_INITALS         NOT NULL VARCHAR2(3)   
+AUTHOR_LNAME           NOT NULL VARCHAR2(15)  
+AUTHOR_DOB             NOT NULL DATE          
+AUTHOR_GENDER          NOT NULL VARCHAR2(1)   
+AUTHOR_CONTACT_DETAILS NOT NULL VARCHAR2(100) 
+Name          Null?    Type         
+------------- -------- ------------ 
+BOOK_CAT_ID   NOT NULL NUMBER(38)   
+BOOK_CATEGORY NOT NULL VARCHAR2(25) 
+Name              Null?    Type         
+----------------- -------- ------------ 
+BOOK_ID           NOT NULL NUMBER(38)   
+AUTHOR_ID         NOT NULL NUMBER(38)   
+BOOK_CAT_ID       NOT NULL NUMBER(38)   
+ISBN              NOT NULL VARCHAR2(14) 
+DATE_PUBLICATION  NOT NULL DATE         
+BOOK_TITLE        NOT NULL VARCHAR2(80) 
+BOOK_PROFIT_PRICE NOT NULL NUMBER(5,2)  
+Name             Null?    Type         
+---------------- -------- ------------ 
+CUSTOMER_ID      NOT NULL NUMBER(38)   
+CUSTOMER_NAME    NOT NULL VARCHAR2(25) 
+CUSTOMER_ADDRESS NOT NULL VARCHAR2(80) 
+CUSTOMER_PHONE   NOT NULL VARCHAR2(25) 
+CUSTOMER_EMAIL   NOT NULL VARCHAR2(30) 
+Name         Null?    Type        
+------------ -------- ----------- 
+ORDER_ID     NOT NULL NUMBER(38)  
+CUSTOMER_ID  NOT NULL NUMBER(38)  
+ORDER_DATE   NOT NULL DATE        
+ORDER_AMOUNT NOT NULL NUMBER(5,2) 
+Name              Null?    Type        
+----------------- -------- ----------- 
+ORDER_BOOK_NUMBER NOT NULL NUMBER(38)  
+ORDER_ID          NOT NULL NUMBER(38)  
+BOOK_ID           NOT NULL NUMBER(38)  
+BOOK_PRICE        NOT NULL NUMBER(5,2) 
+
+User MATT created.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+User MATT dropped.
+

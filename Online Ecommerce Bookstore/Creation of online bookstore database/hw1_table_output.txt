@@ -1,0 +1,92 @@
+
+Table AUTHORS dropped.
+
+
+Table AUTHORS created.
+
+
+Table BOOK_CATEGORIES dropped.
+
+
+Table BOOK_CATEGORIES created.
+
+
+Table BOOKS dropped.
+
+
+Table BOOKS created.
+
+
+Table CUSTOMERS dropped.
+
+
+Table CUSTOMERS created.
+
+
+Table ORDERS dropped.
+
+
+Table ORDERS created.
+
+
+Table ORDERED_BOOKS dropped.
+
+
+Table ORDERED_BOOKS created.
+
+Name                   Null?    Type         
+---------------------- -------- ------------ 
+AUTHOR_ID              NOT NULL NUMBER(38)   
+AUTHOR_FNAME           NOT NULL VARCHAR2(15) 
+AUTHOR_INITALS         NOT NULL VARCHAR2(3)  
+AUTHOR_LNAME           NOT NULL VARCHAR2(15) 
+AUTHOR_DOB             NOT NULL DATE         
+AUTHOR_GENDER          NOT NULL VARCHAR2(1)  
+AUTHOR_CONTACT_DETAILS NOT NULL VARCHAR2(30) 
+Name          Null?    Type         
+------------- -------- ------------ 
+BOOK_CAT_ID   NOT NULL NUMBER(38)   
+BOOK_CATEGORY NOT NULL VARCHAR2(15) 
+Name              Null?    Type         
+----------------- -------- ------------ 
+BOOK_ID           NOT NULL NUMBER(38)   
+AUTHOR_ID         NOT NULL NUMBER(38)   
+BOOK_CAT_ID       NOT NULL NUMBER(38)   
+ISBN              NOT NULL VARCHAR2(13) 
+DATE_PUBLICATION  NOT NULL DATE         
+BOOK_TITLE        NOT NULL VARCHAR2(30) 
+BOOK_PROFIT_PRICE NOT NULL NUMBER(38)   
+Name             Null?    Type         
+---------------- -------- ------------ 
+CUSTOMER_ID      NOT NULL NUMBER(38)   
+CUSTOMER_NAME    NOT NULL VARCHAR2(25) 
+CUSTOMER_ADDRESS NOT NULL VARCHAR2(25) 
+CUSTOMER_PHONE   NOT NULL VARCHAR2(11) 
+CUSTOMER_EMAIL   NOT NULL VARCHAR2(30) 
+Name         Null?    Type       
+------------ -------- ---------- 
+ORDER_ID     NOT NULL NUMBER(38) 
+CUSTOMER_ID  NOT NULL NUMBER(38) 
+ORDER_DATE   NOT NULL DATE       
+ORDER_AMOUNT NOT NULL NUMBER(38) 
+Name              Null?    Type       
+----------------- -------- ---------- 
+ORDER_BOOK_NUMBER NOT NULL NUMBER(38) 
+ORDER_ID          NOT NULL NUMBER(38) 
+BOOK_ID           NOT NULL NUMBER(38) 
+BOOK_             NOT NULL NUMBER(38) 
+
+User MATT created.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+User MATT dropped.
+
