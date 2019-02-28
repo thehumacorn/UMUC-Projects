@@ -1,0 +1,45 @@
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+EMPLOYEE_ID LASTNAME             FIRSTNAME            ADDRESS              CITY                
+----------- -------------------- -------------------- -------------------- --------------------
+          1 noname               susan                123 fake street      new york            
+
+
+1 row inserted.
+
+
+FINANCE_ID
+----------
+         1
+
+
+STUDENT_ID LASTNAME             FIRSTNAME            ADDRESS              CITY                
+---------- -------------------- -------------------- -------------------- --------------------
+         1 noname               bob                  123 fake street      maryland            
+         2 noname               matt                 123 fake street      texas               
+
+
+1 row updated.
+
+
+STUDENT_ID LASTNAME             FIRSTNAME            ADDRESS              CITY                
+---------- -------------------- -------------------- -------------------- --------------------
+         1 noname               bob                  123 fake street      maryland            
+         2 noname               tim                  123 fake street      texas               
+
+
+1 row deleted.
+
+
+STUDENT_ID LASTNAME             FIRSTNAME            ADDRESS              CITY                
+---------- -------------------- -------------------- -------------------- --------------------
+         2 noname               tim                  123 fake street      texas               
+

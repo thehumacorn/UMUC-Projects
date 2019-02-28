@@ -1,0 +1,26 @@
+
+STUDENT_ID LASTNAME             FIRSTNAME            ADDRESS              CITY                
+---------- -------------------- -------------------- -------------------- --------------------
+         2 noname               tim                  123 fake street      texas               
+
+
+EMPLOYEE_ID LASTNAME             FIRSTNAME            ADDRESS              CITY                
+----------- -------------------- -------------------- -------------------- --------------------
+          1 noname               susan                123 fake street      new york            
+
+
+FINANCE_ID
+----------
+         1
+
+
+Error starting at line : 7 in command -
+insert into DBA1.students VALUES(1, 'noname', 'bob', '123 fake street', 'maryland')
+Error at Command Line : 7 Column : 18
+Error report -
+SQL Error: ORA-01031: insufficient privileges
+01031. 00000 -  "insufficient privileges"
+*Cause:    An attempt was made to perform a database operation without
+           the necessary privileges.
+*Action:   Ask your database administrator or designated security
+           administrator to grant you the necessary privileges

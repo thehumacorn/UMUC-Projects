@@ -1,0 +1,12 @@
+
+Error starting at line : 22 in command -
+create table muffins(
+    muffin_id int primary key
+)
+Error report -
+ORA-01031: insufficient privileges
+01031. 00000 -  "insufficient privileges"
+*Cause:    An attempt was made to perform a database operation without
+           the necessary privileges.
+*Action:   Ask your database administrator or designated security
+           administrator to grant you the necessary privileges

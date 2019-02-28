@@ -1,0 +1,61 @@
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+   SALE_ID
+----------
+         1
+
+
+1 row inserted.
+
+
+PRODUCT_ID PRODUCT_NAME         PRODUCT_PRICE
+---------- -------------------- -------------
+         2 BandW Enlarger Paper            39
+         1 35MM BandW Film                  6
+
+
+PAYROLL_ID FIRSTNAME            LASTNAME             PAY_AMOUNT
+---------- -------------------- -------------------- ----------
+         1 susan                snoozen                     250
+
+
+1 row updated.
+
+
+PAYROLL_ID FIRSTNAME            LASTNAME             PAY_AMOUNT
+---------- -------------------- -------------------- ----------
+         1 sue                  snoozen                     250
+
+
+1 row deleted.
+
+
+1 row deleted.
+
+
+1 row deleted.
+
+
+1 row deleted.
+
+no rows selected
+
+Error starting at line : 25 in command -
+create table muffins(
+    muffin_id int primary key
+)
+Error report -
+ORA-01031: insufficient privileges
+01031. 00000 -  "insufficient privileges"
+*Cause:    An attempt was made to perform a database operation without
+           the necessary privileges.
+*Action:   Ask your database administrator or designated security
+           administrator to grant you the necessary privileges
